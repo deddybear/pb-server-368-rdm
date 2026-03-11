@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeasonExpValues>
+    <!-- Card 1 - 50 -->
+    <Card Number="1"><RequiredExp>500</RequiredExp><NormalCard>10303703</NormalCard><PremiumCardA>0</PremiumCardA><PremiumCardB>0</PremiumCardB></Card>
+    <Card Number="2"><RequiredExp>1000</RequiredExp><NormalCard>10357903</NormalCard><PremiumCardA>0</PremiumCardA><PremiumCardB>0</PremiumCardB></Card>
+    <Card Number="3"><RequiredExp>1500</RequiredExp><NormalCard>13610403</NormalCard><PremiumCardA>0</PremiumCardA><PremiumCardB>0</PremiumCardB></Card>
+	<EnablePremium>1</EnablePremium> <!-- 1 = Premium Enabled, 0 = Disabled -->
+	<StartDate>2502010559</StartDate> 
+	<EndDate>2505312359</EndDate> 
+</SeasonExpValues>
+

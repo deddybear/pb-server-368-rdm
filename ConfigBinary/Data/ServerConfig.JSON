@@ -1,0 +1,28 @@
+{
+    "Server": 
+	[
+		{
+			"ConfigId": "1",
+			"ChannelOnlyGM": "false",
+			"EnableMissions": "true",
+			"AccessUFL": "true",
+			"UserFileList": "",
+			"ClientVersion": "3.68",
+			"EnableGiftSystem": "true",
+			"EnableClan": "true",
+			"EnableTicket": "true",
+			"EnableTags": "true",
+			"EnableBlood": "true",
+			"ExitURL": "https://www.pbglobal1.com/",
+			"ShopURL": "https://www.pbglobal1.com/",
+			"OfficialSteam": "https://www.pbglobal1.com/",
+			"OfficialBanner": "https://www.pbglobal1.com/",
+			"OfficialAddress": "http://pointblank.id",
+			"ChatAnnoucementColor": "3093247",
+			"ChannelAnnoucementColor": "16777215",
+			"ChatAnnountcement": "Point Blank Global",
+			"ChannelAnnouncement": "Point Blank Global Private Server",
+			"Showroom": "S_Valentine"
+		}
+	]
+}
