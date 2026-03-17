@@ -100,7 +100,7 @@ namespace Server.Game.Data.Sync
                     case 31: EventInfo.LoadEventInfo(C); break;
                     case 32: ReloadConfig.Load(C); break;
                     case 7171: ServerMessage.Load(C); break;
-                    default: CLogger.Print(Bitwise.ToHexData($"Game - Opcode Not Found: [{Opcode}]", C.ToArray()), LoggerType.Opcode); break;
+                    default: CLogger.Print(Bitwise.ToHexData($"Game Sync - Opcode Not Found: [{Opcode}]", C.ToArray()), LoggerType.Opcode); break;
                 }
             }
             catch (Exception Ex)

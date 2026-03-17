@@ -90,7 +90,7 @@ namespace Server.Auth.Data.Sync
                     case 33: ChannelCache.Load(C); break;
                     case 34: ReloadPermn.Load(C); break;
                     case 7171: ServerMessage.Load(C); break;
-                    default: CLogger.Print(Bitwise.ToHexData($"Auth - Opcode Not Found: [{Opcode}]", C.ToArray()), LoggerType.Opcode); break;
+                    default: CLogger.Print(Bitwise.ToHexData($"Auth Sync - Opcode Not Found: [{Opcode}]", C.ToArray()), LoggerType.Opcode); break;
                 }
             }
             catch (Exception Ex)

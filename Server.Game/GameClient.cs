@@ -760,7 +760,7 @@ namespace Server.Game
                     case 6940: Packet = new PROTOCOL_CLAN_WAR_REMOVE_MERCENARY_REQ(this, Buff); break; 
                     case 6963: Packet = new PROTOCOL_CLAN_WAR_RESULT_REQ(this, Buff); break; 
                     */
-                    default: Console.WriteLine($"Opcode Not Found: [{Opcode}]"); break;
+                    default: Console.WriteLine($"Game Client - Opcode Not Found: [{Opcode}]"); break;
                 }
                 if (Packet != null)
                 {

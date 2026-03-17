@@ -299,7 +299,7 @@ namespace Server.Match
                         }
                     default:
                         {
-                            Console.WriteLine($"Opcode Not Found: [{Packet.Opcode}]");
+                            Console.WriteLine($"Match Client - Opcode Not Found: [{Packet.Opcode}]");
                             break;
                         }
                 }

@@ -465,7 +465,7 @@ namespace Server.Auth
                     case 1057: Packet = new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, Buff); break;
                     case 7681: Packet = new PROTOCOL_MATCH_SERVER_IDX_REQ(this, Buff); break;
                     case 7699: Packet = new PROTOCOL_MATCH_CLAN_SEASON_REQ(this, Buff); break;
-                    default: CLogger.Print(Bitwise.ToHexData($"Opcode Not Found: [{Opcode}] | {Value}", Buff), LoggerType.Opcode); break;
+                    default: CLogger.Print(Bitwise.ToHexData($"Auth Client Opcode Not Found: [{Opcode}] | {Value}", Buff), LoggerType.Opcode); break;
                 }
                 if (Packet != null)
                 {

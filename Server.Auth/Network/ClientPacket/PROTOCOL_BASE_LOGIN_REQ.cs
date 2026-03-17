@@ -53,7 +53,7 @@ namespace Server.Auth.Network.ClientPacket
             ReadH();
             Password = ReadS(ReadC());
             Username = ReadS(ReadC());
-            PublicIP = Client.GetIPAddress();
+            PublicIP = "127.0.0.1";
 
 
             //Console.WriteLine(Username);
@@ -83,9 +83,10 @@ namespace Server.Auth.Network.ClientPacket
                 //    Client.Close(1000, true);
                 //}
 
-
+                // main lan mas
                 if (!CheckBlockedCountry()) return; // Block IP Country
 
+                // main lan mas
                 if (ConfigLoader.WLCountryMode && !AceptedCountry()) return; // Block IP Country
 
                 ServerConfig CFG = AuthXender.Client.Config;
@@ -233,7 +234,7 @@ namespace Server.Auth.Network.ClientPacket
                                             pCache.Connection = Client;
                                         }
                                         SendRefresh.RefreshAccount(Player, true);
-                                        FirewallManager.Allow(PublicIP.ToString());
+                                        //FirewallManager.Allow(PublicIP.ToString());
                                     }
                                 }
                                 else
@@ -275,84 +276,93 @@ namespace Server.Auth.Network.ClientPacket
             }
             catch (Exception Ex)
             {
-                CLogger.Print(Ex.Message, LoggerType.Error, Ex);
+                CLogger.Print(Ex.ToString() + " " + Ex.Source + " ", LoggerType.Error, Ex);
             }
         }
 
         private void GetUserFlag()
         {
-            acs = IPK.GetIpInfo(Client.GetAddress());
             Account p = Client.Player;
-
-            CLogger.Print("User Country: " + acs.country + " ID: " + Username + " IP: " + Client.GetIPAddress().ToString(), LoggerType.Info);
-
-            if (acs.country == "Peru")
-            {
-                p.TourneyLevel = 1;
-
-            } else if (acs.country == "Venezuela")
-            {
-                p.TourneyLevel = 2;
-            }
-            else if (acs.country == "Bolivia")
-            {
-                p.TourneyLevel = 3;
-            }
-            else if (acs.country == "Ecuador")
-            {
-                p.TourneyLevel = 4;
-            }
-            else if (acs.country == "United States")
-            {
-                p.TourneyLevel = 5;
-            }
-            else if (acs.country == "Brazil")
-            {
-                p.TourneyLevel = 6;
-            }
-            else if (acs.country == "Argentina")
-            {
-                p.TourneyLevel = 7;
-            }
-            else if (acs.country == "Chile")
-            {
-                p.TourneyLevel = 8;
-            }
-            else if (acs.country == "Colombia")
-            {
-                p.TourneyLevel = 9;
-            }
-            else if (acs.country == "Spanish")
-            {
-                p.TourneyLevel = 10;
-            }
-            else if (acs.country == "Mexico")
-            {
-                p.TourneyLevel = 11;
-            }
-            else if (acs.country == "Swiss")
-            {
-                p.TourneyLevel = 12;
-            }
-            else if (acs.country == "Indonesia")
-            {
-                p.TourneyLevel = 13;
-            }
-            else
-            {
-                p.TourneyLevel = 14; //ETC Flag
-            }
-
+            p.TourneyLevel = 13;
             DaoManagerSQL.UpdateTourneyLevel(p.PlayerId, p.TourneyLevel);
+            CLogger.Print("User Country: Indog ID: " + Username + " IP: ", LoggerType.Info);
+            return;
+
+            //acs = IPK.GetIpInfo(Client.GetAddress());
+            //Account p = Client.Player;
+
+            //CLogger.Print("User Country: " + acs.country + " ID: " + Username + " IP: " + Client.GetIPAddress().ToString(), LoggerType.Info);
+
+            //if (acs.country == "Peru")
+            //{
+            //    p.TourneyLevel = 1;
+
+            //} else if (acs.country == "Venezuela")
+            //{
+            //    p.TourneyLevel = 2;
+            //}
+            //else if (acs.country == "Bolivia")
+            //{
+            //    p.TourneyLevel = 3;
+            //}
+            //else if (acs.country == "Ecuador")
+            //{
+            //    p.TourneyLevel = 4;
+            //}
+            //else if (acs.country == "United States")
+            //{
+            //    p.TourneyLevel = 5;
+            //}
+            //else if (acs.country == "Brazil")
+            //{
+            //    p.TourneyLevel = 6;
+            //}
+            //else if (acs.country == "Argentina")
+            //{
+            //    p.TourneyLevel = 7;
+            //}
+            //else if (acs.country == "Chile")
+            //{
+            //    p.TourneyLevel = 8;
+            //}
+            //else if (acs.country == "Colombia")
+            //{
+            //    p.TourneyLevel = 9;
+            //}
+            //else if (acs.country == "Spanish")
+            //{
+            //    p.TourneyLevel = 10;
+            //}
+            //else if (acs.country == "Mexico")
+            //{
+            //    p.TourneyLevel = 11;
+            //}
+            //else if (acs.country == "Swiss")
+            //{
+            //    p.TourneyLevel = 12;
+            //}
+            //else if (acs.country == "Indonesia")
+            //{
+            //    p.TourneyLevel = 13;
+            //}
+            //else
+            //{
+            //    p.TourneyLevel = 14; //ETC Flag
+            //}
+
+            //DaoManagerSQL.UpdateTourneyLevel(p.PlayerId, p.TourneyLevel);
 
         }
 
         public bool CheckBlockedCountry()
         {
+            Account p = Client.Player;
+            return true;
+
             try
             {
                 acs = IPK.GetIpInfo(Client.GetAddress());
-                Account p = Client.Player;
+                //Account p = Client.Player;
                 string[] blockedCountries = ConfigLoader.BlockedCountries; // Mengambil daftar negara yang diblokir dari konfigurasi
 
                 // Memeriksa apakah negara pengguna terdaftar dalam daftar negara yang diblokir
@@ -374,10 +384,12 @@ namespace Server.Auth.Network.ClientPacket
 
         public bool AceptedCountry()
         {
+            Account p = Client.Player;
+            return true;
             try
             {
                 acs = IPK.GetIpInfo(Client.GetAddress());
-                Account p = Client.Player;
+                //Account p = Client.Player;
                 string[] allowedCountries = ConfigLoader.WLCountries; // Mendapatkan daftar negara yang diperbolehkan dari ConfigGA
 
                 // Memeriksa apakah negara pengguna terdaftar dalam daftar negara yang diperbolehkan

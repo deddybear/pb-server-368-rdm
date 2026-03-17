@@ -78,7 +78,7 @@ namespace Server.Match.Data.Sync
                     case 1: RespawnSync.Load(C); break;
                     case 2: RemovePlayerSync.Load(C); break;
                     case 3: MatchRoundSync.Load(C); break;
-                    default: CLogger.Print(Bitwise.ToHexData($"Match - Opcode Not Found: [{Opcode}]", C.ToArray()), LoggerType.Opcode); break;
+                    default: CLogger.Print(Bitwise.ToHexData($"Match Sync - Opcode Not Found: [{Opcode}]", C.ToArray()), LoggerType.Opcode); break;
 
                         
                 }
