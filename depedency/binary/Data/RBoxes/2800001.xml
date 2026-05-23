@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<List Count="15"> ; Dragon BattleBox
+	<Item Index="0" 	Id="2000005" 	Count="1" 		Percent="90" 	Special="false" Name="Point Up 500 (1Qty)"/>
+	<Item Index="1" 	Id="2000010" 	Count="1" 		Percent="80" 	Special="false" Name="Point Up 1,000 (1Qty)"/>
+	<Item Index="2" 	Id="2000030" 	Count="1" 		Percent="70" 	Special="false" Name="Point Up 3,000 (1Qty)"/>
+	<Item Index="3" 	Id="103265" 	Count="604800" 	Percent="10" 	Special="false" Name="AUG A3 Fire Dragon"/>
+	<Item Index="4" 	Id="103643" 	Count="604800" 	Percent="10" 	Special="false" Name="AzureDragon"/>
+	<Item Index="5" 	Id="202134" 	Count="604800" 	Percent="10" 	Special="false" Name="C.Python Fire Dragon"/>
+	<Item Index="6" 	Id="106120" 	Count="604800" 	Percent="10" 	Special="false" Name="Cerberus Fire Dragon"/>
+	<Item Index="7" 	Id="301212" 	Count="604800" 	Percent="10" 	Special="false" Name="Fang Blade Fire Dragon"/>
+	<Item Index="8" 	Id="104519" 	Count="604800" 	Percent="10" 	Special="false" Name="Kriss S.V Fire Dragon"/>
+	<Item Index="9" 	Id="106070" 	Count="604800" 	Percent="10" 	Special="false" Name="M1887 Dragon"/>
+	<Item Index="10" 	Id="104522" 	Count="604800" 	Percent="10" 	Special="false" Name="OA-93 Fire Dragon"/>
+	<Item Index="11" 	Id="104272" 	Count="604800" 	Percent="10" 	Special="false" Name="P90 Ext. Dragon"/>
+	<Item Index="12" 	Id="104990" 	Count="604800" 	Percent="10" 	Special="false" Name="Pink Dragon SMG"/>
+	<Item Index="13" 	Id="105261" 	Count="604800" 	Percent="10" 	Special="false" Name="Tactilite T2 Fire Dragon"/>
+	<Item Index="14" 	Id="2800001" 	Count="1" 		Percent="5" 	Special="false" Name="Dragon BattleBox"/>
+	<Item Index="15" 	Id="105312" 	Count="604800" 	Percent="10" 	Special="false" Name="DragonSniper"/>
+</List>

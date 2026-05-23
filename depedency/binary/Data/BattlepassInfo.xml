@@ -1,11 +1,307 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SeasonExpValues>
     <!-- Card 1 - 50 -->
-    <Card Number="1"><RequiredExp>500</RequiredExp><NormalCard>10303703</NormalCard><PremiumCardA>0</PremiumCardA><PremiumCardB>0</PremiumCardB></Card>
-    <Card Number="2"><RequiredExp>1000</RequiredExp><NormalCard>10357903</NormalCard><PremiumCardA>0</PremiumCardA><PremiumCardB>0</PremiumCardB></Card>
-    <Card Number="3"><RequiredExp>1500</RequiredExp><NormalCard>13610403</NormalCard><PremiumCardA>0</PremiumCardA><PremiumCardB>0</PremiumCardB></Card>
-	<EnablePremium>1</EnablePremium> <!-- 1 = Premium Enabled, 0 = Disabled -->
-	<StartDate>2502010559</StartDate> 
-	<EndDate>2505312359</EndDate> 
+    <Card Number="1">
+        <RequiredExp>500</RequiredExp>
+        <NormalCard>10303703</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="2">
+        <RequiredExp>1000</RequiredExp>
+        <NormalCard>10357903</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="3">
+        <RequiredExp>1500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="4">
+        <RequiredExp>2000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="5">
+        <RequiredExp>2500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="6">
+        <RequiredExp>3000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="7">
+        <RequiredExp>3500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="8">
+        <RequiredExp>4000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="9">
+        <RequiredExp>4500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="10">
+        <RequiredExp>5000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="11">
+        <RequiredExp>5500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="12">
+        <RequiredExp>6000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="13">
+        <RequiredExp>6500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="14">
+        <RequiredExp>7000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="15">
+        <RequiredExp>7500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="16">
+        <RequiredExp>8000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="17">
+        <RequiredExp>8500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="18">
+        <RequiredExp>9000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="19">
+        <RequiredExp>9500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="20">
+        <RequiredExp>10000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="21">
+        <RequiredExp>10500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="22">
+        <RequiredExp>11000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="23">
+        <RequiredExp>11500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="24">
+        <RequiredExp>12000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="25">
+        <RequiredExp>12500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="26">
+        <RequiredExp>13000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="27">
+        <RequiredExp>13500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="28">
+        <RequiredExp>14000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="29">
+        <RequiredExp>14500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="30">
+        <RequiredExp>15000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="31">
+        <RequiredExp>15500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="32">
+        <RequiredExp>16000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="33">
+        <RequiredExp>16500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="34">
+        <RequiredExp>17000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="35">
+        <RequiredExp>17500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="36">
+        <RequiredExp>18000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="37">
+        <RequiredExp>18500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="38">
+        <RequiredExp>19000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="39">
+        <RequiredExp>19500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="40">
+        <RequiredExp>20000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="41">
+        <RequiredExp>20500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="42">
+        <RequiredExp>21000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="43">
+        <RequiredExp>21500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="44">
+        <RequiredExp>22000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="45">
+        <RequiredExp>22500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="46">
+        <RequiredExp>23000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="47">
+        <RequiredExp>23500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="48">
+        <RequiredExp>24000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="49">
+        <RequiredExp>24500</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <Card Number="50">
+        <RequiredExp>25000</RequiredExp>
+        <NormalCard>13610403</NormalCard>
+        <PremiumCardA>10303703</PremiumCardA>
+        <PremiumCardB>10303703</PremiumCardB>
+    </Card>
+    <EnablePremium>1</EnablePremium> <!-- 1 = Premium Enabled, 0 = Disabled -->
+    <StartDate>2504120000</StartDate>
+    <EndDate>2505312359</EndDate>
 </SeasonExpValues>
-

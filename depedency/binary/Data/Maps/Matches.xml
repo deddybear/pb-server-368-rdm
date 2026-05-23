@@ -6,7 +6,7 @@
 			<Map Id="2" Limit="16" Tag="0" Name="Red Rock" />
 			<Map Id="3" Limit="16" Tag="0" Name="Old Library" />
 			<Map Id="4" Limit="16" Tag="0" Name="M. Station" />
-			<Map Id="5" Limit="16" Tag="0" Name="Midnight Zone" />
+			<!-- <Map Id="5" Limit="16" Tag="0" Name="Midnight Zone" /> -->
 			<Map Id="6" Limit="16" Tag="0" Name="Uptown" />
 			<Map Id="7" Limit="16" Tag="0" Name="Burning Hall" />
 			<Map Id="9" Limit="8" Tag="0" Name="Crack Down" />
@@ -44,7 +44,7 @@
 			<Map Id="97" Limit="16" Tag="1" Name="Thai Sadium" />
 			<!--<Map Id="103" Limit="16" Tag="1" Name="KHAOSAN ROAD" />  KHAOSAN ROAD -->
 			<Map Id="106" Limit="8" Tag="1" Name="Junk Crackdown" />
-			<Map Id="113" Limit="16" Tag="1" Name="XinyiPlaza" />
+			<!-- <Map Id="113" Limit="16" Tag="1" Name="XinyiPlaza" /> -->
 			<!--<Map Id="102" Limit="16" Tag="1" Name="NON STRING" />  NON STRING -->
 		</Count>
 	</Match>
@@ -113,6 +113,8 @@
 	</Match>
 	<Match Rule="6" Mode="Free For All">
 		<Count>
+			<!-- <Map Id="7" Limit="16" Tag="0" Name="Burning Hall" /> -->
+			<!-- <Map Id="20" Limit="16" Tag="0" Name="Dissert Camp" /> -->
 			<Map Id="100" Limit="16" Tag="1" Name="Khaosan Road"/>
 		</Count>
 	</Match>
@@ -128,7 +130,7 @@
 			<Map Id="1" Limit="16" Tag="0" Name="Port Akaba" />
 			<Map Id="2" Limit="16" Tag="0" Name="Red Rock" />
 			<Map Id="4" Limit="16" Tag="0" Name="M. Station" />
-			<Map Id="5" Limit="16" Tag="0" Name="Midnight Zone" />
+			<!-- <Map Id="5" Limit="16" Tag="0" Name="Midnight Zone" /> -->
 			<Map Id="7" Limit="16" Tag="0" Name="Burning Hall" />
 			<Map Id="9" Limit="8" Tag="0" Name="Crack Down" />
 			<Map Id="10" Limit="8" Tag="0" Name="Saint Mansion" />
@@ -178,7 +180,7 @@
 			<Map Id="2" Limit="8" Tag="0" Name="Red Rock" />
 			<Map Id="3" Limit="8" Tag="0" Name="Old Library" />
 			<Map Id="4" Limit="8" Tag="0" Name="M. Station" />
-			<Map Id="5" Limit="8" Tag="0" Name="Midnight Zone" />
+			<!-- <Map Id="5" Limit="8" Tag="0" Name="Midnight Zone" /> -->
 			<Map Id="29" Limit="8" Tag="0" Name="Two Towers" />
 			<Map Id="23" Limit="8" Tag="0" Name="Supply base" />
 			<Map Id="22" Limit="8" Tag="0" Name="Face rock" />
