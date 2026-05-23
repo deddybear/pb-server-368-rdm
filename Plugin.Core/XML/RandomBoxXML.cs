@@ -15,6 +15,8 @@ namespace Plugin.Core.XML
             DirectoryInfo folder = new DirectoryInfo(Directory.GetCurrentDirectory() + @"\Data\RBoxes");
             if (!folder.Exists)
             {
+
+                CLogger.Print($"Tidak ditemukan folder RBoxes : {Directory.GetCurrentDirectory() + @"\Data\RBoxes"}", LoggerType.Info);
                 return;
             }
             foreach (FileInfo file in folder.GetFiles())
@@ -33,6 +35,8 @@ namespace Plugin.Core.XML
         private static void LoadBox(int id)
         {
             string path = "Data/RBoxes/" + id + ".xml";
+
+            CLogger.Print($"Load file RBoxes xml di : {path}", LoggerType.Info);
             if (File.Exists(path))
             {
                 Parse(path, id);

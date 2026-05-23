@@ -211,7 +211,7 @@ namespace Executable
             NickFilter.Load();
             Translation.Load();
             SeasonPass.LoadSeasonPass();
-            //CardData.LoadCardsWithXmlReader("Data/BattlepassInfo.xml");
+            CardData.LoadCardsWithXmlReader("Data/BattlepassInfo.xml");
             PrintSection("Server Data", "Ended");
             if (ConfigLoader.RconEnable)
             {
